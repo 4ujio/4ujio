@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        /* https://img2.baidu.com/it/u=872381433,2191620501&fm=253&fmt=auto&app=138&f=JPEG?w=300&h=300 */
+        #btn {
+            text-align: center;
+            line-height: 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        #box {
+            margin: auto;
+            width: 450px;
+            height: 500px;
+            border: 2px solid black;
+        }
+
+        .top {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #con {
+            width: 100%;
+            height: 400px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        #con div {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="btn">开始游戏</div>
+    <div id="box">
+        <div class="top">
+            <span>倒计时：<b>58秒</b></span>
+            <span>得分：<span>20</span></span>
+        </div>
+        <div id="con">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
